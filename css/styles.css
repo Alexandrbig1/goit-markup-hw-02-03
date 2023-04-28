@@ -36,21 +36,29 @@ button {
   text-transform: uppercase;
 }
 
+.logo .link {
+  text-decoration: none;
+}
+
 .logo .logo-studio {
   color: #2E2F42;
   width: 71px;
   height: 21px;
 }
 
-.menu {
+.list {
   list-style: none;
 }
 
-.menu-item {
+.menu {
+  list-style: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.menu-item {
   color: #2e2f42;
 
 }
