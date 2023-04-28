@@ -1,3 +1,14 @@
-ul {
-  color: blue;
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #E5E5E5;
+  color: #434455;
+}
+
+img {
+  background-color: #2E2F42;
+}
+
+button {
+  background-color: #4D5AE5;
+  color: #FFFFFF;
 }
