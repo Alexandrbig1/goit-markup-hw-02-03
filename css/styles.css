@@ -97,6 +97,12 @@ p {
   height: 21px;
 }
 
+.logo .logo-foot {
+  color: #F4F4FD;
+  width: 71px;
+  height: 21px;
+}
+
 .menu {
   list-style: none;
   font-weight: 500;
