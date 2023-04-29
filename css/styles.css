@@ -1,5 +1,25 @@
+:root {
+  --title-text-color: #2E2F42;
+  --primary-text-color: #434455;
+  --accent-color: #4D5AE5;
+}
+
 body {
+  font-family: 'Roboto', sans-serif;
   background-color: #FFFFFF;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #404bbf;
 }
 
 /* header */
@@ -23,19 +43,19 @@ body {
 }
 
 .head-logo-studio {
-  color: #2E2F42;
+  color: var(--title-text-color);
 }
 
 .head-list-menu a {
   list-style: none;
   font-weight: 500;
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
 
 .head-contacts a {
   font-style: normal;
   font-weight: 400;
-  color: #434455;
+  color: var(--primary-text-color);
 
 }
 
@@ -50,7 +70,6 @@ body {
 }
 
 .hero h1 {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -63,55 +82,48 @@ body {
   height: 56px;
   left: 636px;
   top: 428px;
-  background-color: #4D5AE5;
+  background-color: var(--accent-color);
   color: #FFFFFF;
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
+  font-family: inherit;
 }
 
 /* about */
 
-.about-list {
-  font-family: 'Roboto', sans-serif;
-}
-
-.about-list h3 {
+.about-list .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2E2F42;
+  color: var(--title-text-color);
 }
 
-.about-list p {
+.about-list .text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  color: var(--primary-text-color);
 }
 
 /* digital */
 
 h2 {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2E2F42;
+  color: var(--title-text-color);
 }
 
 /* team */
 
 .team {
   background-color: #F4F4FD;
-  font-family: 'Roboto', sans-serif;
   text-align: center;
   letter-spacing: 0.02em;
 }
@@ -120,14 +132,14 @@ h2 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2E2F42;
+  color: var(--title-text-color);
 }
 
 .team p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  color: var(--primary-text-color);
 }
 
 /* footer */
@@ -155,7 +167,6 @@ h2 {
 }
 
 .footer p {
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -163,13 +174,19 @@ h2 {
   color: #F4F4FD;
 }
 
-/* a:hover,
-a:focus {
-  color: #404bbf;
-} */
+/* portfolio */
 
+/* header */
 
+/* main */
 
-ul {
-  list-style: none;
+/* features */
+
+.feautures-list {
+  color: var(--accent-color);
 }
+
+.feautures-list:hover,
+.feautures-list:focus {}
+
+/* footer */
