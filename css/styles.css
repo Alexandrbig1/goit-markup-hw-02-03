@@ -11,18 +11,18 @@ body {
   color: #434455
 }
 
-ul {
+.list {
   list-style: none;
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
-a:hover,
+/* a:hover,
 a:focus {
   color: #404bbf;
-}
+} */
 
 /* header */
 
@@ -32,7 +32,7 @@ a:focus {
   letter-spacing: 0.02em;
 }
 
-.head-list-logo {
+.head-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -48,17 +48,25 @@ a:focus {
   color: var(--title-text-color);
 }
 
-.head-list-menu a {
-  list-style: none;
+.head-menu {
   font-weight: 500;
   color: var(--title-text-color);
 }
 
-.head-contacts a {
-  font-style: normal;
+.head-menu:hover,
+.head-menu:focus {
+  color: #404bbf;
+}
+
+
+.head-contacts {
   font-weight: 400;
   color: var(--primary-text-color);
+}
 
+.head-contacts:hover,
+.head-contacts:focus {
+  color: #404bbf;
 }
 
 /* main */
@@ -71,15 +79,17 @@ a:focus {
   height: 600px;
 }
 
-.hero h1 {
+.hero-main {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   color: #FFFFFF;
+  text-align: center;
+  letter-spacing: 0.02em;
   ;
 }
 
-.hero button {
+.hero-btn {
   width: 169px;
   height: 56px;
   left: 636px;
@@ -92,6 +102,12 @@ a:focus {
   align-items: center;
   letter-spacing: 0.04em;
   font-family: inherit;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404BBF;
 }
 
 /* about */
@@ -117,10 +133,8 @@ a:focus {
 .digital.title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
-  text-align: center;
+  line-height: 1.11;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
   color: var(--title-text-color);
 }
 
@@ -128,22 +142,15 @@ a:focus {
 
 .team {
   background-color: #F4F4FD;
-  text-align: center;
   letter-spacing: 0.02em;
 }
 
-.team h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+.team.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   color: var(--title-text-color);
-}
-
-.team p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--primary-text-color);
 }
 
 /* footer */
