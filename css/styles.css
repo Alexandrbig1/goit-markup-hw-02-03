@@ -190,6 +190,10 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--accent-color);
+  background-color: #F4F4FD;
+  border: 1px solid #E7E9FC;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 }
 
 .features-list:hover,
