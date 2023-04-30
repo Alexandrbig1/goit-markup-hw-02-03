@@ -184,8 +184,7 @@ h2 {
 
 /* features */
 
-.feautures-list {
-  color: var(--secondary-color);
+.features-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
