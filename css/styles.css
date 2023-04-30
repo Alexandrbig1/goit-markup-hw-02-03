@@ -101,6 +101,7 @@ a:focus {
   font-size: 20px;
   line-height: 1.2;
   color: var(--title-text-color);
+  letter-spacing: 0.02em;
 }
 
 .text {
@@ -108,11 +109,12 @@ a:focus {
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-text-color);
+  letter-spacing: 0.02em;
 }
 
 /* digital */
 
-h2 {
+.digital.title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
