@@ -148,6 +148,10 @@ a:focus {
   letter-spacing: 0.02em;
 }
 
+.team-menu {
+  background-color: #FFFFFF;
+}
+
 .team.title {
   font-weight: 700;
   font-size: 36px;
@@ -156,10 +160,6 @@ a:focus {
   color: var(--title-text-color);
   text-align: center;
   text-transform: capitalize;
-}
-
-.team-menu {
-  background-color: #FFFFFF;
 }
 
 /* footer */
