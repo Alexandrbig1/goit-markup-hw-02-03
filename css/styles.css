@@ -202,7 +202,7 @@ a:focus {
 
 /* features */
 
-.features-btn {
+.portfolio-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -214,8 +214,8 @@ a:focus {
   cursor: pointer;
 }
 
-.features-btn:hover,
-.features-btn:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
   background-color: #404BBF;
   color: #ffffff;
 }
