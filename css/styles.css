@@ -79,6 +79,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .head .container {
@@ -88,7 +89,7 @@ button {
 .head-nav {
   display: flex;
   align-items: center;
-  column-gap: 70px;
+  column-gap: 40px;
 }
 
 .head-logo {
@@ -101,6 +102,7 @@ button {
   text-transform: uppercase;
   color: #4D5AE5;
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .head-studio {
@@ -114,6 +116,10 @@ button {
 .head-items {
   margin-left: 30px;
   margin-top: 0;
+}
+
+.head-items:nth-last-child() {
+  margin-right: 0;
 }
 
 .header-item:first-child {
@@ -141,9 +147,14 @@ button {
   display: flex;
 }
 
+
 .head-address-items {
   margin-left: 30px;
   margin-top: 0;
+}
+
+.head-address-items:nth-last-child() {
+  margin-right: 0;
 }
 
 
@@ -154,7 +165,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 70px;
+  gap: 40px;
   margin-left: 30px;
   margin-top: 0;
   padding-top: 24px;
