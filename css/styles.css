@@ -260,6 +260,10 @@ button {
   letter-spacing: 0.02em;
 }
 
+.about-items {
+  width: calc((100% - 72px) / 4);
+}
+
 /* ----- digital ----- */
 
 .digital {
@@ -335,16 +339,6 @@ button {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-
-/* .team.title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  color: var(--title-color);
-  text-align: center;
-  text-transform: capitalize;
-} */
 
 .team-container {
   padding: 32px 16px;
@@ -461,6 +455,7 @@ button {
 .app-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 /* ------- FOOTER ------- */
