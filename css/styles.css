@@ -185,7 +185,10 @@ button {
   background-color: var(--title-color);
   width: 1440px;
   height: 600px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-main {
@@ -196,10 +199,9 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   max-width: 496;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* margin: 0 auto; */
+  max-width: 496px;
+  margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -216,9 +218,6 @@ button {
   letter-spacing: 0.04em;
   font-family: inherit;
   cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .hero-btn:hover,
@@ -228,12 +227,21 @@ button {
 
 /* ----- about ----- */
 
+.about-menu {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+
+}
+
 .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--title-color);
   letter-spacing: 0.02em;
+  padding-bottom: 8px;
+  margin-top: 120px;
 }
 
 .text {
@@ -246,6 +254,8 @@ button {
 
 /* ----- digital ----- */
 
+.digital {}
+
 .digital.title {
   font-weight: 700;
   font-size: 36px;
@@ -253,18 +263,56 @@ button {
   letter-spacing: 0.02em;
   color: var(--title-color);
   text-align: center;
-  text-transform: capitalize
+  text-transform: capitalize;
+  margin-top: 120px;
+  padding-bottom: 72px;
+}
+
+.digital-menu {
+  display: flex;
+  gap: 24px;
 }
 
 /* ----- team ----- */
 
 .team {
   background-color: #F4F4FD;
+  margin-top: 120px;
+}
+
+.team-main-title {
+  padding-top: 120px;
+  padding-bottom: 72px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .team-menu {
+  display: flex;
+  gap: 24px;
+}
+
+.team-list {
   background-color: var(--main-color);
+  width: 264px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-title {
+  margin-top: 0;
+  padding-top: 32px;
+  padding-bottom: 8px;
+}
+
+.team-text {
+  padding-bottom: 32px;
 }
 
 .team.title {
@@ -281,8 +329,8 @@ button {
 
 .footer {
   width: 1440px;
-  height: 312px;
   background-color: var(--title-color);
+  padding: 100px 0 100px;
 }
 
 .footer-logo {
@@ -301,12 +349,14 @@ button {
   color: #F4F4FD;
 }
 
-.footer p {
+.footer-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #F4F4FD;
+  margin-top: 16px;
+  max-width: 264px;
 }
 
 /* ------- PORTFOLIO ------- */
