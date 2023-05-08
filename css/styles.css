@@ -111,11 +111,13 @@ button {
 
 .head-list {
   display: flex;
+  gap: 40px;
 }
 
 .head-items {
   margin-left: 30px;
   margin-top: 0;
+  gap: 40px;
 }
 
 .head-items:nth-last-child() {
@@ -183,7 +185,7 @@ button {
 
 .hero {
   background-color: var(--title-color);
-  width: 1440px;
+  max-width: 1440px;
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -343,6 +345,8 @@ button {
   text-transform: uppercase;
   color: var(--accent-color);
   text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-studio {
@@ -355,7 +359,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #F4F4FD;
-  margin-top: 16px;
   max-width: 264px;
 }
 
