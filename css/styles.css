@@ -71,6 +71,8 @@ button {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+
+  margin-bottom: 8px;
 }
 
 /* ------- HEADER ------- */
@@ -188,8 +190,8 @@ button {
   height: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  padding: 188px 0;
 }
 
 .hero-main {
@@ -215,10 +217,13 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
+  text-align: center;
   letter-spacing: 0.04em;
   font-family: inherit;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+
 }
 
 .hero-btn:hover,
@@ -227,6 +232,10 @@ button {
 }
 
 /* ----- about ----- */
+
+.about {
+  padding: 120px 0;
+}
 
 .about-menu {
   display: flex;
@@ -255,9 +264,11 @@ button {
 
 /* ----- digital ----- */
 
-.digital {}
+.digital {
+  padding-bottom: 120px;
+}
 
-.digital.title {
+.digital-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -266,7 +277,7 @@ button {
   text-align: center;
   text-transform: capitalize;
   margin-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px
 }
 
 .digital-menu {
@@ -278,12 +289,11 @@ button {
 
 .team {
   background-color: #F4F4FD;
-  margin-top: 120px;
+  padding: 120px 0;
 }
 
 .team-main-title {
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -304,19 +314,31 @@ button {
   text-align: center;
   display: flex;
   flex-direction: column;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-title {
-  margin-top: 0;
-  padding-top: 32px;
-  padding-bottom: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+  margin-bottom: 8px;
 }
 
 .team-text {
-  padding-bottom: 32px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 
-.team.title {
+/* .team.title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -324,6 +346,10 @@ button {
   color: var(--title-color);
   text-align: center;
   text-transform: capitalize;
+} */
+
+.team-container {
+  padding: 32px 16px;
 }
 
 /* ------- FOOTER ------- */
@@ -369,16 +395,21 @@ button {
 
 /* ----- features ------ */
 
+.features {
+  padding: 96px 0 120px;
+}
+
 .portfolio-menu {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-bottom: 72px;
 }
 
-.portfolio-items {
+/* .portfolio-items {
   padding-top: 96px;
   padding-bottom: 72px;
-}
+} */
 
 .portfolio-btn {
   font-weight: 500;
@@ -390,12 +421,14 @@ button {
   border: 1px solid var(--secondary-color);
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
+  padding: 12px 24px;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   background-color: #404BBF;
   color: var(--main-color);
+  border: 1px solid transparent;
 }
 
 /* ----- app ----- */
@@ -410,17 +443,13 @@ button {
 }
 
 .app-title {
-  padding-top: 32px;
-  padding-right: auto;
-  padding-bottom: 8px;
-  padding-left: 16px;
   margin-top: 0;
 }
 
-.app-text {
-  padding-right: auto;
-  padding-left: 16px;
-  padding-bottom: 32px;
+.app-text {}
+
+.app-container {
+  padding: 32px 16px;
 }
 
 /* ------- FOOTER ------- */
