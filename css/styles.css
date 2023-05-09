@@ -12,14 +12,6 @@ body {
   color: var(--text-color);
 }
 
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
 h1,
 h2,
 h3,
@@ -344,6 +336,27 @@ button {
   padding: 32px 16px;
 }
 
+/* ----- customers ----- */
+
+.customers {
+  padding: 120px 0;
+}
+
+.customers-title {
+  margin-bottom: 72px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.customers-menu {}
+
+.customers-items {}
+
 /* ------- FOOTER ------- */
 
 .footer {
@@ -378,6 +391,26 @@ button {
   color: #F4F4FD;
   max-width: 264px;
 }
+
+.footer-menu {
+  display: flex;
+}
+
+.footer-media {}
+
+.media-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+  margin-left: 120px;
+}
+
+.media-menu {}
+
+.media-items {}
 
 /* ------- PORTFOLIO ------- */
 
